@@ -176,6 +176,8 @@
   button,
   input { /* 1 */
     overflow: visible;
+    width: 100%;
+    padding: 1rem;
   }
   
   /**
@@ -197,6 +199,14 @@
   [type="reset"],
   [type="submit"] {
     -webkit-appearance: button;
+    width: 100%;
+    padding: 2rem;
+    background-color: var(--primario);
+    color: var(--blanco);
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 900;
+    border: none;
   }
   
   /**
