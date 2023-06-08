@@ -313,16 +313,15 @@ img {
 /** Newsletter **/
 
 .newsletter {
-    background-image: linear-gradient( to bottom, transparent 80%, var(--blanco) 0%), url(../07-audifonos/img/newsletter.jpg);
-    background-position: left, -6rem -14rem;
+    background-image: linear-gradient( to bottom, transparent 50%, var(--blanco) 0%), url(../07-audifonos/img/newsletter.jpg);
+    background-position: top center;
     background-repeat: no-repeat;
-    background-size: 100%, 100rem;
-    padding: 10rem 0px;
+    background-size: 100%, 70rem;
 }
 @media (min-width: 768px ){ 
     .newsletter {
-        background-image: linear-gradient( to bottom, transparent 50%, var(--blanco) 0%), url(../07-audifonos/img/newsletter.jpg);
-        background-position: center, -21rem 0rem;
+        background-image: linear-gradient( to right, transparent 50%, var(--blanco) 0%), url(../07-audifonos/img/newsletter.jpg);
+        background-position: center, -10rem 0rem;
         background-size: 100%, 100rem;
         padding: 10rem 0;
     }
@@ -356,7 +355,6 @@ img {
     } 
     
 }
-
 .formulario input [type="text"] {
     width: 100%;
     padding: 1rem;
