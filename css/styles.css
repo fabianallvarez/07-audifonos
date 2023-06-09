@@ -313,7 +313,7 @@ img {
 /** Newsletter **/
 
 .newsletter {
-    background-image: linear-gradient( to bottom, transparent 50%, var(--blanco) 0%), url(../07-audifonos/img/newsletter.jpg);
+    background-image: linear-gradient( to bottom, transparent 50%, var(--blanco) 100%), url(../07-audifonos/img/newsletter.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: 100%, 70rem;
@@ -347,11 +347,13 @@ img {
 
 .texto-newsletter {
     grid-row: 2 / 3;
+    color: var(--blanco);
 }
 @media (min-width: 768px ){
     .texto-newsletter{
         grid-row: unset;
         grid-column: 2 / 3;
+        color: var(--negro);
     } 
     
 }
