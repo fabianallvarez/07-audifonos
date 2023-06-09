@@ -160,17 +160,35 @@ img {
 
 /** Sobre TechPRO **/
 .sobre-tech {
-    background-image: linear-gradient( to bottom, transparent 50%, var(--primario) 0%), url(../07-audifonos/img/imagen-mujer.jpg);
     background-position: right;
     background-repeat: repeat, no-repeat;
     background-size: 100%, 110rem;
 }
+
+.notavif.notwebp .sobre-tech {
+    background-image: linear-gradient( to bottom, transparent 50%, var(--primario) 0%), url(../07-audifonos/img/imagen-mujer.jpg);
+}
+.webp .sobre-tech {
+    background-image: linear-gradient( to bottom, transparent 50%, var(--primario) 0%), url(../07-audifonos/img/imagen-mujer.webp);
+}
+.avif .sobre-tech {
+    background-image: linear-gradient( to bottom, transparent 50%, var(--primario) 0%), url(../07-audifonos/img/imagen-mujer.avif);
+}
 @media (min-width: 768px ){ 
     .sobre-tech {
-        background-image: linear-gradient( to left, transparent 50%, var(--primario) 0%), url(../07-audifonos/img/imagen-mujer.jpg);
         background-repeat: repeat, no-repeat;
         column-gap: 4rem;
     }
+    .notavif.notwebp .sobre-tech {
+        background-image: linear-gradient( to left, transparent 50%, var(--primario) 0%), url(../07-audifonos/img/imagen-mujer.jpg);
+    }
+    .webp .sobre-tech {
+        background-image: linear-gradient( to left, transparent 50%, var(--primario) 0%), url(../07-audifonos/img/imagen-mujer.webp);
+    }
+    .avif .sobre-tech{
+        background-image: linear-gradient( to left, transparent 50%, var(--primario) 0%), url(../07-audifonos/img/imagen-mujer.avif);
+    }
+
 }
 @media (min-width: 1600px){ 
     .sobre-tech {
@@ -313,18 +331,37 @@ img {
 /** Newsletter **/
 
 .newsletter {
-    background-image: linear-gradient( to bottom, transparent 50%, var(--blanco) 100%), url(../07-audifonos/img/newsletter.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: 100%, 70rem;
 }
+.notavif.notwebp .newsletter {
+    background-image: linear-gradient( to bottom, transparent 50%, var(--blanco) 100%), url(../07-audifonos/img/newsletter.jpg);
+}
+
+.webp .newsletter{
+    background-image: linear-gradient( to bottom, transparent 50%, var(--blanco) 100%), url(../07-audifonos/img/newsletter.webp);
+}
+
+.avif .newsletter {
+    background-image: linear-gradient( to bottom, transparent 50%, var(--blanco) 100%), url(../07-audifonos/img/newsletter.avif);
+}
 @media (min-width: 768px ){ 
     .newsletter {
-        background-image: linear-gradient( to right, transparent 50%, var(--blanco) 0%), url(../07-audifonos/img/newsletter.jpg);
         background-position: center, -10rem 0rem;
         background-size: 100%, 100rem;
         padding: 10rem 0;
     }
+    .notavif.notwebp .newsletter {
+        background-image: linear-gradient( to right, transparent 50%, var(--blanco) 0%), url(../07-audifonos/img/newsletter.jpg);
+    }
+    .webp .newsletter {
+        background-image: linear-gradient( to right, transparent 50%, var(--blanco) 0%), url(../07-audifonos/img/newsletter.webp);
+    }
+    .avif .newsletter{
+        background-image: linear-gradient( to right, transparent 50%, var(--blanco) 0%), url(../07-audifonos/img/newsletter.avif);
+    }
+
 }
 @media (min-width: 2200px ){ 
     .newsletter{
@@ -373,9 +410,14 @@ img {
     border: none;
 }
 
-
-
-
+.footer p {
+    text-align: center;
+    font-family: var(--fuenteSecundaria);
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: var(--primario);
+    padding: 2rem 0;
+}
 
 
 
